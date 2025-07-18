@@ -22,5 +22,24 @@ public class Calculation {
 
         // Применение нескольких логических операций ( < , >, >=, <= )
 
+        if (a > b){
+            System.out.println((a - b) > 0);
+        }
+
+        if (a > b){
+        System.out.println(!((a - b) > 0));
+        }
+
+        System.out.println((d + e) != 3);
+
+        // Диапазоны типов данных для вещественных / чисел с плавающей точкой
+        System.out.println(Float.MAX_VALUE);
+        System.out.println(Float.MIN_VALUE);
+        System.out.println(Double.MIN_VALUE);
+        System.out.println(Double.MAX_VALUE);
+
+        //Переполнение при арифметической операции
+        System.out.println(Double.MAX_VALUE * 2);
+        System.out.println(Float.MIN_VALUE / 2f);
     }
 }
